@@ -14,6 +14,7 @@ int main()
     printf ("\n\t\tRelationship between Fahrenheit and Celsius");
     printf ("\n\n\t\t\t    1 )    F  - >  C");
     printf ("\n\t\t\t    2 )    C  - >  F");
+
     while (!(choice == 1 || choice == 2))
      {
       printf ("\n\n\t\t\tChoice (1/2) ? ");
@@ -23,6 +24,7 @@ int main()
         printf ("\n\n\t\t\tmust choose from 1 or 2");
        }
      }
+
      if (choice == 1)
       {
        printf ("\n\t\t\tInput F: ");
@@ -38,6 +40,7 @@ int main()
          F = (9.0 / 5.0) * C + 32.0;
          printf ("\n\t\t\t%6.2fC = %6.2fF\n", C, F);
         }
+        
     choice = 0;
     do{
        printf ("\n\t\t\tDo more (Y/N) ? ");
