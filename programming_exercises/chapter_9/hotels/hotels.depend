@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1593308027 source:c:\users\ddr\c\projects\programming_exercises\chapter_9\hotels\hotel.c
+	<stdio.h>
+	<stdlib.h>
+	"hotel.h"
+
+1593308165 c:\users\ddr\c\projects\programming_exercises\chapter_9\hotels\hotel.h
+
+1593308129 source:c:\users\ddr\c\projects\programming_exercises\chapter_9\hotels\usehotel.c
+	<stdio.h>
+	"hotel.h"
+
